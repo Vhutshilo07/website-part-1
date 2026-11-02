@@ -1,214 +1,189 @@
-# Laptop Hub Pretoria 
+# Laptop Hub Pretoria
 
- 
+## 1. Project Overview
 
-## 1. Project Overview 
+**Laptop Hub Pretoria** is a fictional, independently owned laptop retailer based in Hatfield, Pretoria, Gauteng. The business specialises in affordable refurbished laptops, computer accessories and repair services.
 
-**Laptop Hub Pretoria** is a fictional, independently owned laptop retailer based in Pretoria, Gauteng, specialising in new and refurbished laptops. This project is part of a three-part Portfolio of Evidence for WEDE5020, in which a fully functional, responsive, and SEO-optimised website is developed for the store.  
+This website was developed as part of the three-part Portfolio of Evidence for **WEDE5020 – Web Development**. The purpose of the project is to create a professional, responsive and interactive website that allows customers to learn about the business, browse available products and submit enquiries.
 
-Part 1 focuses on planning, research, and building the foundational HTML structure. 
+## 2. Website Goals and Objectives
 
- 
+The main goals of the website are to:
 
-## 2. Website Goals and Objectives 
+- Establish a professional online presence for Laptop Hub Pretoria.
+- Allow customers to browse available refurbished laptops and view their specifications.
+- Generate potential sales leads through online enquiry and quotation forms.
+- Provide information about the business, products and repair services.
+- Make it easy for customers to find contact information and the business location.
+- Provide a user-friendly experience across desktop, tablet and mobile devices.
 
-- Establish a professional online presence for Laptop Hub Pretoria. 
+## 3. Target Audience
 
-- Allow potential customers to browse available laptop stock online. 
+The website is aimed at:
 
-- Generate qualified sales leads through an online enquiry form. 
+- Students looking for affordable laptops.
+- Professionals who need reliable computer equipment.
+- Small businesses requiring budget-friendly IT equipment.
+- Customers looking for laptop repairs, upgrades and technical assistance.
+- People in Pretoria and surrounding areas interested in refurbished technology.
 
-- Provide clear, accessible information on services, repairs, and contact details. 
+## 4. Website Structure
 
- 
+The website consists of five main HTML pages:
 
-## 3. Key Features and Functionality 
+- `index.html` – Home page.
+- `about-us.html` – About Us page.
+- `products.html` – Products page.
+- `enquries.html` – Enquiries page.
+- `contacts.html` – Contact Us page.
 
-1.  **Responsive navigation menu linking all pages**: Home, About Us, Products, Enquiries, Contact 
+The project also contains the following folders and files:
 
-2.  **Homepage with hero section and featured laptops**: Includes banner and 2 featured products 
+- `css/style.css` – Contains the website styling and responsive layouts.
+- `js/script.js` – Contains JavaScript functionality.
+- `images/` – Stores the website images.
+- `robots.txt` – Provides instructions for search engine crawlers.
+- `sitemap.xml` – Lists the website pages for search engines.
 
-3.  **Product listings page**: Displays available laptops with specs and pricing 
+## 5. Technologies Used
 
-4.  **Enquiry forms**: Separate forms for product quotes and repair enquiries 
+The following technologies and tools were used:
 
-5.  **Contact page**: Includes business address, phone, email, and Google Maps link 
+- **HTML5:** Used to structure the website pages and content.
+- **CSS3:** Used for colours, layouts, styling, animations and responsive design.
+- **JavaScript:** Used to add interactive features, product searching, form validation and image gallery functionality.
+- **Visual Studio Code:** Used as the development environment.
+- **Live Server:** Used to preview and test the website during development.
+- **Netlify:** Used to host and publish the website online.
+- **GitHub:** Used for source code management and project version control.
 
- 
+## 6. Key Features and Functionality
 
-## 4. Target Audience 
+The website includes the following features:
 
-- Students looking for affordable laptops 
+### Responsive Navigation
 
-- Professionals and small businesses needing reliable devices 
+A navigation menu connects all five website pages and allows visitors to move between sections.
 
-- Customers requiring laptop repairs and upgrades 
+### Homepage
 
-- Anyone in Pretoria and surrounding areas looking for new or refurbished tech 
+The homepage introduces Laptop Hub Pretoria and includes a hero section, promotional content and featured laptops.
 
- 
+### Product Listings and Search
 
-## 5. Website Structure 
+The Products page displays refurbished laptops with their specifications and prices. A JavaScript search function allows customers to filter products.
 
-The website consists of 5 main pages: 
+### Enquiry and Contact Forms
 
-- `index.html` - Home 
+Separate forms allow customers to submit product enquiries, request quotations and send general contact messages. Form validation helps ensure that required information is entered correctly.
 
-- `about.html` - About Us 
+### Image Gallery
 
-- `products.html` - Products 
+A product image gallery allows visitors to open larger images using a lightbox. The lightbox can be closed using the close button, by clicking outside the image or by pressing Escape.
 
-- `enquiries.html` - Enquiries 
+### Contact Information and Location
 
-- `contact.html` - Contact 
+The Contact Us page provides the business's telephone number, email address and location information, together with a Google Maps link.
 
- 
+### Animations and Transitions
 
-## 6. Technologies Used 
+CSS transitions and animations improve the visual presentation of the website and provide interactive effects when visitors hover over certain elements.
 
-- HTML5 for website structure 
+## 7. Responsive Design – Part 2 Update
 
-- No CSS in Part 1 - styling will be added in Part 2 
+Responsive design was implemented during Part 2 to ensure that the website works across different screen sizes.
 
- 
+CSS media queries were used to adjust the website layout for desktop, tablet and mobile devices. The product grid, navigation and other page elements adapt to smaller screens.
 
-## 7. Development Timeline 
+The website was tested using Google Chrome DevTools at different screen widths, including:
 
-- **Week 1-2**: Research, planning, and project overview 
+- 375px – Mobile.
+- 768px – Tablet.
+- 1024px – Desktop.
 
-- **Week 3-4**: HTML structure and navigation for all 5 pages 
+The website was also checked using a mobile browser.
 
-- **Week 5-6**: Content population, forms, and internal linking 
+According to MDN Web Docs (2024), CSS Grid Layout provides a two-dimensional layout system that can be used to create responsive web layouts. W3Schools (2024) explains that media queries allow websites to adapt their layouts and styling to different screen sizes.
 
-Laptop Hub Pretoria 
+## 8. Search Engine Optimisation (SEO) – Part 3
 
-1. Project Overview 
+SEO improvements were introduced to help search engines understand the website content and discover its pages.
 
-Laptop Hub Pretoria is a responsive e-commerce website developed for a local business that sells affordable refurbished laptops in Pretoria. The website allows customers to browse available laptop stock, view product specifications, request quotations via WhatsApp, and contact the business. 
+The improvements include:
 
-This project was developed as part of WEDE5020 Part 1 and Part 2. 
+- Page titles and meta descriptions for the main website pages.
+- Descriptive headings and page content.
+- Descriptive image filenames and alternative text.
+- Internal links connecting the website pages.
+- Mobile-friendly layouts.
+- A `robots.txt` file to provide crawling instructions.
+- An XML sitemap listing the main website pages.
 
-2. Website Goals and Objectives 
+These improvements help establish a foundation for better search engine visibility.
 
-The main goals and objectives of the Laptop Hub Pretoria website are to: 
+## 9. Testing – Part 3
 
-Establish a professional online presence for Laptop Hub Pretoria. 
+The website was tested to check its functionality and usability.
 
-Allow potential customers to browse available refurbished laptops online. 
+Testing included:
 
-Generate qualified sales leads through online enquiry forms. 
+- Checking that navigation links open the correct pages.
+- Testing the product search function.
+- Checking required form fields and invalid email addresses.
+- Testing form confirmation messages.
+- Opening and closing images in the gallery.
+- Testing the lightbox close button, outside-click and Escape key functionality.
+- Checking that images display correctly.
+- Checking the website layout on a mobile device.
 
-Provide clear and accessible information about products, services, repairs, and contact details. 
+## 10. Changelog
 
-Provide customers with convenient ways to request quotations and make enquiries. 
+### Part 1 – 10 August 2026 to 15 August 2026
 
-3. Key Features and Functionality 
+- Created five HTML pages with a consistent header, navigation menu and footer.
+- Developed the initial HTML structure.
+- Added initial product and service content.
+- Created a GitHub repository.
+- Published an initial version of the website using GitHub Pages.
 
-The website includes the following key features: 
+### Part 2 – 10 September 2026 to 18 September 2026
 
-Responsive Navigation 
-A navigation menu provides links to all five main pages: Home, About Us, Products, Enquiries, and Contact. 
+- Added comments to `style.css` to improve code organisation.
+- Improved the HTML structure by moving the footer outside the main content container.
+- Implemented responsive design using CSS media queries.
+- Added responsive layouts for different screen sizes.
+- Created an `images/` folder and organised the website images.
+- Updated the README.md document with Part 2 information and references.
 
-Homepage 
-The homepage includes a hero section, promotional banner, and two featured laptop products. 
+### Part 3 – Website Functionality and SEO Improvements
 
-Product Listings 
-The Products page displays available refurbished laptops along with their specifications and prices. 
+- Added JavaScript functionality to improve website interaction.
+- Implemented product searching and filtering.
+- Added form validation and confirmation messages.
+- Added an image gallery with lightbox functionality.
+- Improved CSS animations, transitions and hover effects.
+- Improved page titles, meta descriptions and image alternative text.
+- Created `robots.txt` and `sitemap.xml` files.
+- Published the updated website using Netlify.
 
-Enquiry Forms 
-Separate enquiry forms are provided for product quotations and laptop repair enquiries. 
+## 11. References – Harvard Style
 
-Contact Page 
-The Contact page provides the business address, telephone number, email address, and a Google Maps link to assist customers in locating the business. 
+MDN Web Docs. (2024) CSS Grid Layout. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout (Accessed: 18 September 2026).
 
-4. Target Audience 
+MDN Web Docs. (2024) Using Media Queries. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_Media_Queries (Accessed: 18 September 2026).
 
-The website is aimed at: 
+W3Schools. (2024) HTML Responsive Web Design. Available at: https://www.w3schools.com/html/html_responsive.asp (Accessed: 18 September 2026).
 
-Students and professionals in Pretoria looking for affordable refurbished laptops. 
+W3Schools. (2024) CSS Flexbox. Available at: https://www.w3schools.com/css/css3_flexbox.asp (Accessed: 18 September 2026).
 
-Small business owners who require budget-friendly IT equipment. 
+## 12. Author
 
-Customers who require laptop repair, upgrade, and related services. 
+**Student Name:** [Talifhani sihongo]
 
-5. Responsive Design – Part 2 Update 
+**Student Number:** [St10510030]
 
-Responsive design was implemented during Part 2 to ensure that the website provides a suitable user experience across different screen sizes. 
+**Course:** WEDE5020 – Web Development
 
-According to MDN Web Docs (2024), CSS Grid Layout provides a two-dimensional layout system that can be used to create responsive web layouts. W3Schools (2024) explains that media queries allow websites to adapt their layouts and styling to different screen sizes. 
+**Institution:** Rosebank College
 
-Three responsive breakpoints were implemented: 
-
-Desktop (1024px and above): A three-column product grid with horizontal navigation. 
-
-Tablet (768px–1023px): A two-column product grid with adjusted navigation. 
-
-Mobile (480px and below): A single-column product grid with vertically stacked navigation. 
-
-The responsive design was tested using Google Chrome DevTools at the following screen widths: 
-
-375px – Mobile 
-
-768px – Tablet 
-
-1024px – Desktop 
-
-All product images were moved into the images/ folder and optimized for improved website organization and performance. 
-
-6. Changelog 
-
-Part 1 – 10 August 2026 to 15 August 2026 
-
-Created five HTML pages with a consistent header, navigation menu, and footer. 
-
-Added the initial CSS styling in css/style.css. 
-
-Added initial product and service content. 
-
-Created a GitHub repository. 
-
-Deployed the website using GitHub Pages. 
-
-Part 2 – 10 September 2026 to 18 September 2026 
-
-Added comments to style.css to improve code organization, including: 
-
-/* Header Styles */ 
-
-/* Product Grid */ 
-
-/* Media Queries */ 
-
-Improved the HTML structure by moving the <footer> outside the <main> container to ensure correct footer positioning on the homepage. 
-
-Implemented responsive design using media queries for different screen sizes. 
-
-Added responsive breakpoints for 1024px, 768px, and 480px. 
-
-Created an images/ folder and optimized all product images. 
-
-Updated README.md with Part 2 information, the project changelog, and references. 
-
-7. References – Harvard Style 
-
-MDN Web Docs. (2024) CSS Grid Layout. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout (Accessed: 18 September 2026). 
-
-MDN Web Docs. (2024) Using Media Queries. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_Media_Queries (Accessed: 18 September 2026). 
-
-W3Schools. (2024) HTML Responsive Web Design. Available at: https://www.w3schools.com/html/html_responsive.asp (Accessed: 18 September 2026). 
-
-W3Schools. (2024) CSS Flexbox. Available at: https://www.w3schools.com/css/css3_flexbox.asp (Accessed: 18 September 2026). 
-
-  
-
-## 8. Author 
-
-Student Name: [Talifhan iSihongo] 
-
-Student Number: [ST10510030] 
-
-Course: WEDE5020 - Web Development 
-
-Institution: [Rosebank College ] 
-
-Date: August 2026 
+**Date:** 02 November 2026
