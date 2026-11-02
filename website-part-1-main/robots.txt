@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://delicate-rolypoly-e6c3a7.netlify.app/sitemap.xml

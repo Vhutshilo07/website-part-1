@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us | Laptop Hub Pretoria</title>
+
+    <meta name="description"
+        content="Contact Laptop Hub Pretoria in Hatfield for refurbished laptop enquiries, computer repairs, technical support and product assistance.">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <img src="images/heropic (2).jpg" alt="Laptop Hub Pretoria" class="header-image">
+
+        <h1>Laptop Hub Pretoria</h1>
+        <p>Your Trusted Laptop and Technology Partner</p>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav aria-label="Main navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="enquries.html">Enquiries</a></li>
+            <li>
+                <a href="contacts.html" aria-current="page">
+                    Contact Us
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main class="container">
+
+        <section class="page-intro">
+            <h2>Contact Us</h2>
+            <p>
+                We would love to hear from you.
+                Contact Laptop Hub Pretoria for product enquiries,
+                laptop repairs and general assistance.
+            </p>
+        </section>
+
+        <!-- CONTACT DETAILS -->
+        <section class="contact-section">
+
+            <div class="contact-grid">
+
+                <div class="contact-card">
+                    <h3>Our Location</h3>
+                    <p>Hatfield, Pretoria, Gauteng</p>
+
+                    <a href="https://maps.app.goo.gl/2YSMm7tbEnQW3hCX9?g_st=ac" target="_blank"
+                        rel="noopener noreferrer">
+                        View Our Location on Google Maps
+                    </a>
+                </div>
+
+                <div class="contact-card">
+                    <h3>Phone Number</h3>
+                    <p>071 226 8060</p>
+
+                    <a href="tel:0712268060">
+                        Call Us
+                    </a>
+                </div>
+
+                <div class="contact-card">
+                    <h3>Email Address</h3>
+                    <p>info@LaptopHubPretoria.co.za</p>
+
+                    <a href="mailto:info@LaptopHubPretoria.co.za">
+                        Send Us an Email
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- CONTACT FORM -->
+        <section class="contact-form-section">
+
+            <h2>Send Us a Message</h2>
+
+            <p>
+                Complete the form below and we will get back to you.
+            </p>
+
+            <form id="contactForm" action="https://formsubmit.co/vhutshilosihongo@gmail.com" method="POST">
+
+                <input type="hidden" name="_subject" value="Laptop Hub Pretoria - Contact Form">
+
+                <input type="hidden" name="_captcha" value="true">
+
+                <label for="contactName">Full Name</label>
+                <input type="text" id="contactName" name="name" placeholder="Enter your full name" required>
+
+                <label for="contactEmail">Email Address</label>
+                <input type="email" id="contactEmail" name="email" placeholder="Enter your email address" required>
+
+                <label for="messageType">Type of Message</label>
+                <select id="messageType" name="messageType" required>
+
+                    <option value="">Select message type</option>
+                    <option value="General Enquiry">General Enquiry</option>
+                    <option value="Product Enquiry">Product Enquiry</option>
+                    <option value="Technical Support">Technical Support</option>
+                    <option value="Other">Other</option>
+
+                </select>
+
+                <label for="contactText">Your Message</label>
+                <textarea id="contactText" name="message" rows="5" placeholder="Write your message here"
+                    required></textarea>
+
+                <button type="submit" class="btn">
+                    Send Message
+                </button>
+
+                <p id="contactMessage" aria-live="polite"></p>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 Laptop Hub Pretoria. All rights reserved.</p>
+        <p>Hatfield, Pretoria, Gauteng</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
